@@ -1,0 +1,128 @@
+#header img{
+    width: auto;
+    height: 80px;
+}
+
+#header{
+    padding-bottom: 0%;
+    padding-top: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#header a{
+    color: #ff9578;
+}
+#card-options i{
+    color: #9effe2;
+}
+#main .carousel-item img{
+    max-height: 70vh;
+    object-fit: cover;
+    opacity: 0.7;
+
+}
+#fotos{
+    background: #d2f8ec !important;
+}
+
+#fotos img{
+ border-radius: 1%;   
+}
+
+#fotos h3{
+    color: #ff9578;
+    font-weight: bold;
+}
+span.precio{
+    background: #68B39C;
+}
+a.btn-comprar{
+    background: #FFD3C7;
+}
+button.btn-comprar{
+    background: #fa9578;
+    color: #fff;
+}
+a.btn-cotizar{
+    background: #C7FFEE;
+}
+button.btn-cotizar{
+    background: #30d3d0;
+    color: #fff;
+}
+footer i{
+    color: #ff9578;
+}
+footer p{
+    color: #ff9578;
+}
+
+
+
+body { 
+    -webkit-font-smoothing: antialiased; 
+    text-rendering: optimizeLegibility; 
+    font-family: 'Overpass', sans-serif; 
+    letter-spacing: 0px; 
+    font-size: 17px; 
+    
+    font-weight: 400; 
+    line-height: 32px; 
+    background-color: #edefef; 
+}
+h1, h2, h3, h4, h5, h6 { 
+    color: #25292a; 
+    margin: 0px 0px 10px 0px; 
+    font-family: 'Overpass', sans-serif; 
+    font-weight: 700; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+}
+h1 { font-size: 34px; }
+h2 { font-size: 28px; line-height: 38px; }
+h3 { font-size: 22px; line-height: 32px; }
+h4 { font-size: 20px; }
+h5 { font-size: 17px; }
+h6 { font-size: 12px; }
+p { margin: 0 0 20px; line-height: 1.7; }
+p:last-child { margin: 0px; }
+
+a { text-decoration: none; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
+a:focus, a:hover { text-decoration: none; color: #ff9578; }
+
+
+
+.page-header { background: url(assets/img/back_opacity_pink.png)no-repeat; position: relative; background-size: cover; opacity: 0.7; }
+.page-caption { padding-top: 100px; padding-bottom: 174px; color: #FFF; }
+.page-title { font-size: 46px; line-height: 1; color: #fff; font-weight: 600; text-align: center; }
+
+.card-section { position: relative; bottom: 180px; }
+.card-block { padding: 80px; }
+.section-title { margin-bottom: 60px; }
+
+.card-section i, h4{
+    color: #30d3d0;
+}
+
+span{
+    font-size:15px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+.file {
+    visibility: hidden;
+    position: absolute;
+  }

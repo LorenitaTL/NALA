@@ -1,0 +1,100 @@
+#header img{
+    width: auto;
+    height: 80px;
+}
+
+#header{
+    padding-bottom: 0%;
+    padding-top: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#header a{
+    color: #ff9578;
+}
+
+
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #ff9578;
+    font-weight: bold;
+}
+
+h5 {
+    padding-top: 10px;
+    word-break: break-all;
+    color: #ff9578;
+    font-family: 'Overpass', sans-serif; 
+    font-weight: bold;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none;
+    /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #30d3d0;
+    color: white;
+}
+footer i{
+    color: #ff9578;
+}
+footer {
+    background: white;
+}
